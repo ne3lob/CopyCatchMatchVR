@@ -5934,30 +5934,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Kommen wir nun zu den Fl\xE4chen.\r\n\r\nDie Punkte die jetzt aufleuchten,
-    bezeichnen die Tischebene. \r\n\r\nWas, wenn deine H\xE4nde Pinsel w\xE4ren und
-    du diese Fl\xE4che mit Farbe ausf\xFCllen\r\nk\xF6nntest? Streiche einmal \u201E\xFCber
-    den Tisch\u201C.\r\n(neutrale Pose)\r\n\r\nWenn du magst, nimm dir ruhig ein
-    bisschen Zeit, um diese Ebene zu erkunden.\r\n\r\n. . . Nun leuchten die Punkte
-    auf, die die T\xFCrebene bezeichnen.\r\n(Avatar bewegt sich und beschreibt die
-    Situation)\r\n\r\n. . . Die letzten Punkte markieren die Radebene.\r\n(Avatar
-    bewegt sich und beschreibt die Situation)\r\n\r\n(Neutrale Pose)\r\n\r\nVergewissere
-    dich noch einmal, ob du dich mit deinen F\xFCssen in dem\r\nmarkierten Bereich
-    wiederfindest, nachdem du dich soviel bewegt hast ;-)\r\n\r\nUnser Raum hat sich
-    nun um Eckpunkte erweitert. Kannst du sie sehen?\r\n(Farblich kurz aufleuchten
-    lassen)\r\nSie geben uns die M\xF6glichkeit, Diagonalen sichtbar zu machen.\r\n\r\nDu
-    kannst jetzt eine Linie von einer Ecke zur gegen\xFCberliegenden Ecke ziehen.\r\nErinnere
-    dich daran,\r\n \r\ndass dein Blick bei deiner Hand bleibt.\r\n(Avatar zieht
-    die ersten 4 Diagonalen)\r\n____________________________________________________________\r\n[Schnitt:
-    neutral dastehen]\r\n_____________________________________________________________\r\nF\xFChl
-    dich eingeladen, noch andere Diagonalen zu bilden, indem du jeweils die\r\nB\xE4lle
-    mit der gleichen Farbe verbindest. (Insgesamt 10 Diagonalen)\r\n_________________________________________________________________\r\n\r\nFall
-    1: Verbinde nun jeweils die B\xE4lle mit der gleichen Farbe und bilde die\r\nDiagonalen.\r\nHast
-    du alle Ecken miteinander verbunden?\r\nFolge meiner Bewegung.\r\n\r\nDiagonalen
-    erweitern unseren Bewegungsreichtum und die Ausrichtung\r\nunserer Bewegung im
-    Raum\u2026.zu welchen Bewegungen inspiriert dich die\r\nErfahrung mit den Diagonalen?
-    Lass uns mal probieren\u2026\u2026.Du kannst meinen\r\nBewegungen folgen oder
-    deine eigenen erfinden."
+  m_text: "Diagonalen erweitern unseren Bewegungsreichtum und die Ausrichtung\r\nunserer
+    Bewegung im Raum\u2026.zu welchen Bewegungen inspiriert dich die\r\nErfahrung
+    mit den Diagonalen? Lass uns mal probieren\u2026\u2026.Du kannst meinen\r\nBewegungen
+    folgen oder deine eigenen erfinden.\r\nProbier mal, die Verbindung von den B\xE4llen
+    zu deinem K\xF6rper zu machen.\r\nTauche in deine neue Umgebung ein.\r\nDu kannst
+    jetzt die Brille absetzen.\r\n\r\nAvatar geht r\xFCckw\xE4rts in den Bildschirm."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6020,7 +6002,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -24.14669, z: 136.97752, w: -19.09774}
+  m_margin: {x: 0, y: -24.14669, z: 148.38466, w: 52.289692}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6061,7 +6043,7 @@ RectTransform:
   m_GameObject: {fileID: 9151505631872800928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10.001993}
-  m_LocalScale: {x: 1.1149, y: 1.1149, z: 1.1149}
+  m_LocalScale: {x: 1.8934346, y: 1.8934346, z: 1.8934346}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9151505632990678479}
@@ -6069,7 +6051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 87.6, y: 16.5}
+  m_AnchoredPosition: {x: 144.1, y: -66.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &9151505632153756340
@@ -6090,6 +6072,7 @@ MonoBehaviour:
   - {fileID: 7707388933876275840}
   - {fileID: 7707388934124317950}
   - {fileID: 7707388933965004441}
+  firstPartBallsUser: []
   delayDurationStart: 5
 --- !u!4 &9151505632153756341
 Transform:
@@ -6266,7 +6249,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9151505632990678483}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10.180382}
+  m_LocalPosition: {x: 0, y: 0, z: -9.837}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children:
