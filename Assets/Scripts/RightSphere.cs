@@ -14,5 +14,7 @@ public class RightSphere : MonoBehaviour
         gameObject.GetComponent<SphereScrip>().ChangeColorToWhite();
         lineHorizontal.SetPosition(1, new Vector3(14, 0, 0));
         bottomObject.GetComponent<SphereScrip>().isGrow = true;
+        bottomObject.GetComponent<TriggerWaitingAnimation>().startTimer = true;
+        gameObject.GetComponent<TriggerWaitingAnimation>().startTimer = false;
     }
 }

@@ -13,7 +13,7 @@ Material:
   - _EMISSION
   - _ENVIRONMENTREFLECTIONS_OFF
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
@@ -311,7 +311,7 @@ Material:
     - _Color: {r: 0.8666667, g: 0.85490197, b: 0.80784315, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _EmissionColor: {r: 15.165975, g: 15.165975, b: 15.165975, a: 1}
+    - _EmissionColor: {r: 0.7207518, g: 0.7207518, b: 0.7207518, a: 1}
     - _EmissiveColor: {r: 4.594794, g: 4.594794, b: 4.594794, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}

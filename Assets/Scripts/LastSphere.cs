@@ -6,7 +6,9 @@ using UnityEngine.Serialization;
 public class LastSphere : MonoBehaviour
 {
     public GameObject[] disableObjectInFirstPart;
-    public GameObject leftAxe;
+
+    public GameObject LeftAxe;
+    //private HorizontalAxe _horizontalAxeScript;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,7 +19,8 @@ public class LastSphere : MonoBehaviour
         }
 
         gameObject.GetComponent<SphereScrip>().ChangeColorToWhite();
-        //leftAxe.SetActive(true);
-        leftAxe.GetComponent<SphereScrip>().isGrow = true;
+        LeftAxe.GetComponent<HorizontalAxe>().isGoHorizontal = true;
+        LeftAxe.GetComponent<TriggerWaitingAnimation>().startTimer = true;
+        gameObject.GetComponent<TriggerWaitingAnimation>().startTimer = false;
     }
 }

@@ -17,6 +17,8 @@ public class FowardMiddle : MonoBehaviour
         {
             gameObject.GetComponent<SphereScrip>().ChangeColorToWhite();
             nextSphere.GetComponent<SphereScrip>().isGrow = true;
+            nextSphere.GetComponent<TriggerWaitingAnimation>().startTimer = true;
+            gameObject.GetComponent<TriggerWaitingAnimation>().startTimer = false;
             secondTouch = true;
             firstTouch = false;
         }
@@ -25,6 +27,8 @@ public class FowardMiddle : MonoBehaviour
         {
             gameObject.GetComponent<SphereScrip>().ChangeColorToWhite();
             backSphere.GetComponent<SphereScrip>().isGrow = true;
+            backSphere.GetComponent<TriggerWaitingAnimation>().startTimer = true;
+            gameObject.GetComponent<TriggerWaitingAnimation>().startTimer = false;
             secondTouch = false;
         }
     }

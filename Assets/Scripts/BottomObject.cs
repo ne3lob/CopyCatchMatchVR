@@ -11,5 +11,7 @@ public class BottomObject : MonoBehaviour
     {
         gameObject.GetComponent<SphereScrip>().ChangeColorToWhite();
         topObject.GetComponent<SphereScrip>().isGrow = true;
+        topObject.GetComponent<TriggerWaitingAnimation>().startTimer = true;
+        gameObject.GetComponent<TriggerWaitingAnimation>().startTimer = false;
     }
 }

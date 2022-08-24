@@ -14,7 +14,7 @@ public class LineRendererManager : MonoBehaviour
     public int delayDuration = 5;
     private LineRenderer activeLine;
     [SerializeField] private bool isRightHand;
-    [SerializeField] private int delayBakeDuration = 1;
+    //[SerializeField] private int delayBakeDuration = 1;
 
     private void Update()
     {

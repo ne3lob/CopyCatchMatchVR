@@ -12,5 +12,7 @@ public class TopObject : MonoBehaviour
         gameObject.GetComponent<SphereScrip>().ChangeColorToWhite();
         lineVertical.SetPosition(1, new Vector3(0, -17, 0));
         fowardObject.GetComponent<SphereScrip>().isGrow = true;
+        fowardObject.GetComponent<TriggerWaitingAnimation>().startTimer = true;
+        gameObject.GetComponent<TriggerWaitingAnimation>().startTimer = false;
     }
 }

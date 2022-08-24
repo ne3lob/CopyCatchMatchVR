@@ -13,8 +13,8 @@ public class SphereScrip : MonoBehaviour
     public bool isDown;
     private Material material;
 
-    private Color _blackColorImmisive = new Color(0, 0, 0);
-    private Color _whiteColorEmmisive = new Color(0.2735849f, 0.2735849f, 0.2735849f);
+    private Color _blackColorImmisive = new Color(0.1037736f, 0.1037736f, 0.1037736f);
+    private Color _whiteColorEmmisive = new Color(0.8962264f, 0.8962264f, 0.8962264f);
     private float timeChangeImmisivel = 1f;
 
     private void Awake()
@@ -56,7 +56,7 @@ public class SphereScrip : MonoBehaviour
         }
     }
 
-    IEnumerator LerpUp()
+    public IEnumerator LerpUp()
     {
         float progress = 0;
 

@@ -5,33 +5,25 @@ using UnityEngine;
 public class TableAxe : MonoBehaviour
 {
     public GameObject[] tableAxes;
-    public bool EmissiveTableAxes;
-    public float timeBetween = 1f;
-    public int countActiveObject;
+    [SerializeField] private int firstStartAfter;
 
 
-    // Update is called once per frame
-    void Update()
+    public IEnumerator TableAxeCoroutine()
     {
-        if (EmissiveTableAxes && countActiveObject < 5)
+        yield return new WaitForSeconds(firstStartAfter);
+        for (int i = 0; i < tableAxes.Length; i++)
         {
-            TableAxesEnable();
-        }
-    }
+            if (i % 2 == 0)
+            {
+                tableAxes[i].GetComponent<SphereScrip>().ChangeColorToWhite();
+            }
+            else
+            {
+                tableAxes[i].GetComponent<SphereScrip>().ChangeColorToWhite();
+                StartCoroutine(tableAxes[i].GetComponent<SphereScrip>().LerpUp());
+            }
 
-    public void TableAxesEnable()
-    {
-        StartCoroutine(Count());
-    }
-
-    public IEnumerator Count()
-    {
-        foreach (GameObject tableAxe in tableAxes)
-        {
-            tableAxe.SetActive(true);
-            yield return
-                new WaitForSeconds(timeBetween);
-            countActiveObject++;
+            yield return new WaitForSeconds(1f);
         }
     }
 }

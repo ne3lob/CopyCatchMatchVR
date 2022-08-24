@@ -15,6 +15,8 @@ public class UpRight : MonoBehaviour
         {
             gameObject.GetComponent<SphereScrip>().ChangeColorToWhite();
             nextSphere.GetComponent<SphereScrip>().isGrow = true;
+            nextSphere.GetComponent<TriggerWaitingAnimation>().startTimer = true;
+            gameObject.GetComponent<TriggerWaitingAnimation>().startTimer = false;
             firstTouch = false;
         }
     }
